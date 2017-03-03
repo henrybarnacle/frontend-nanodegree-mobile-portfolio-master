@@ -45,3 +45,9 @@ Step 5 - Added requestAnimationFrame to the updatePostions call at the end of th
 
 ####Result: Jank is gone , achieving 60FPS. Around 0.45MS Average scripting time to generate last 10 frames: 
 
+###Part 3: Achieve pizza resize in under 5 ms.
+
+Step 1 - Edited changePizzaSizes function to take the timely calculations out of the loop and estalish the variables before looping. Establishing the new dimensions of the pizza container before the loop which changes all the pizzas and containers sizes to the new dimensions.
+
+####Result: Success- time to resize is now under 5MS.
+
