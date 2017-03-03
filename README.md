@@ -12,15 +12,15 @@ Step 2 - Optimize Images. Took web hosted images and hosted them locally. Resize
 
 Step 3 - Installed Grunt Critical Task runner to find and inline critical CSS. 
 
-		**Installed latest versions of node.js, npm and grunt globally**
+**Installed latest versions of node.js, npm and grunt globally**
 
-		**Created Package.json and Gruntfile.js files in the project directory**
+**Created Package.json and Gruntfile.js files in the project directory**
 
-		**Installed the grunt critical task runner in the project directory**
+**Installed the grunt critical task runner in the project directory**
 
-		**Enabled the critical task inside the Gruntfile**
+**Enabled the critical task inside the Gruntfile**
 
-		**Ran Grunt Critical to create the new index.html file with inlined crtical CSS and then copied the changes over to the original index.html file**
+**Ran Grunt Critical to create the new index.html file with inlined crtical CSS and then copied the changes over to the original index.html file**
 
 Step 4 - Eliminated other render blocking properties, media screen for print.css.
 
